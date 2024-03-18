@@ -65,7 +65,7 @@ const App = () => {
             key={index}
             style={[
               style.card,
-              flippedCards.includes(index) && styles.flipped,
+              flippedCards.includes(index) && style.flipped,
             ]}
             onPress={() => handleCardPress(index)}>
             {flippedCards.includes(index) ? (
